@@ -3,9 +3,9 @@
 from __future__ import print_function
 from bs4 import BeautifulSoup
 
-# 办公室 path = 'D:/YJ-Eden/Git/reptile/python-reptiles/course/course/week1/1_2/1_2answer_of_homework/1_2_homework_required'
+path = 'D:/YJ-Eden/Git/reptile/python-reptiles/course/course/week1/1_2/1_2answer_of_homework/1_2_homework_required'
 
-path = 'F:/Git/reptile/python-reptiles/course/course/week1/1_2/1_2answer_of_homework/1_2_homework_required'
+# 寝室 path = 'F:/Git/reptile/python-reptiles/course/course/week1/1_2/1_2answer_of_homework/1_2_homework_required'
 
 with open(path + '/index.html', 'r') as web_data:
     soup = BeautifulSoup(web_data, 'lxml')
