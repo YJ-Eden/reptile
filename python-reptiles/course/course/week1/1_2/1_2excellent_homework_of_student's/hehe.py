@@ -3,8 +3,8 @@
 from __future__ import print_function
 from bs4 import BeautifulSoup
 
-path='C:/Users/XH-YH/Desktop/1_2_homework_required/index.html'
-with open(path, 'r') as web_data:
+path = 'D:/YJ-Eden/Git/reptile/python-reptiles/course/course/week1/1_2/1_2answer_of_homework/1_2_homework_required'
+with open(path+'/index.html', 'r') as web_data:
     soup = BeautifulSoup(web_data, 'lxml')
     titles = soup.select(
         'body > div > div > div.col-md-9 > div > div > div > div.caption > h4 > a ')
@@ -34,6 +34,6 @@ for title, image, review, price, grade in zip(titles, images, reviews, prices, g
         'image': image.get('src'),
         'review': review.get_text(),
         'price': price.get_text(),
-        'grade': (''.join(star).replace('[', '').replace(']', '').replace(',', '').replace(' ', '')).decode('utf-8')
+        'grade': ''.join(star).replace('[', '').replace(']', '').replace(',', '').replace(' ', '')
     }
     print(data)
