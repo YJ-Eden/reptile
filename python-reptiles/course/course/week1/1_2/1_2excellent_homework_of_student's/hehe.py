@@ -3,7 +3,8 @@
 from __future__ import print_function
 from bs4 import BeautifulSoup
 
-with open('C:/Users/Administrator.ZX-201607191137/Desktop/1_2_homework_required/index.html', 'r') as web_data:
+path='C:/Users/XH-YH/Desktop/1_2_homework_required/index.html'
+with open(path, 'r') as web_data:
     soup = BeautifulSoup(web_data, 'lxml')
     titles = soup.select(
         'body > div > div > div.col-md-9 > div > div > div > div.caption > h4 > a ')
