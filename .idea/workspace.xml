@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c23f84b-4410-4cfc-bf40-a26f69a9d19d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/reptile.iml" afterPath="$PROJECT_DIR$/.idea/reptile.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -278,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513775293570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1-2完成">
+      <created>1513776724755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513776724755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +341,8 @@
     <MESSAGE value="pycharm上传到github测试" />
     <MESSAGE value="readme修改" />
     <MESSAGE value="hehe添加办公室、寝室两个index地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="hehe添加办公室、寝室两个index地址" />
+    <MESSAGE value="1-2完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-2完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
