@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-url = 'http://bj.xiaozhu.com/fangzi/1508951935.html'
+url = 'http://bj.xiaozhu.com/fangzi/3894815530.html'
 wb_data = requests.get(url)
 soup = BeautifulSoup(wb_data.text,'lxml')
 
